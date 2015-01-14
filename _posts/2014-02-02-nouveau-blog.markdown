@@ -14,6 +14,7 @@ Je vais donc tenter de mettre par écrit mes idées, pour pouvoir à la fois les
 De nombreux sujets seront abordés: du système économique mondial et ses alternatives possibles, aux sujets dits sociétaux en passant par un peu de philosophie. Car tout touche de près ou de loin à la philosophie au final ; et c'est notre philosphie de vie qui conditionne beaucoup nos opinions et valeurs.
 
 into that:
+
 ```java
 public Object foo(Object bar){
 	onStart(bar);
