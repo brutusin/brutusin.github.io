@@ -13,6 +13,20 @@ Je vais donc tenter de mettre par écrit mes idées, pour pouvoir à la fois les
 
 De nombreux sujets seront abordés: du système économique mondial et ses alternatives possibles, aux sujets dits sociétaux en passant par un peu de philosophie. Car tout touche de près ou de loin à la philosophie au final ; et c'est notre philosphie de vie qui conditionne beaucoup nos opinions et valeurs.
 
+into that:
+```java
+public Object foo(Object bar){
+	onStart(bar);
+	try{
+		Object ret = new Object();
+		onFinished(ret);
+		return ret;
+	} catch(Throwable th){
+		onThrowable(th);
+		thow th;
+	}
+}
+```
 Autant vous prévenir, je rêve d'un monde meilleur, pour toutes et tous sans conditions. Donc je serai parfois dans l'utopie pour certains, dans le possible pour d'autres, mais dans tous les cas, je tenterai d'être honnête.
 
 A très vite !
