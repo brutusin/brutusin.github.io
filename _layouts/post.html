@@ -15,9 +15,9 @@ layout: default
   {% endif %}
   <span class="post-meta small">{{ minutes }} minute read</span>
   <ul>
-	{.% for tag in page.tags %}
-	<li>{.{ tag }}</li>
-      {.% endfor %}
+	{% for tag in page.tags %}
+	<li>{{ tag }}</li>
+      {% endfor %}
    </ul>
 </div>
 
