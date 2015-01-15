@@ -3,8 +3,10 @@ layout: page
 title: About brutusin.org
 permalink: /about/
 ---
-![gravatar idelvall](https://secure.gravatar.com/avatar/6042eceaabf3daf99d200ec3cd7caa32?size=200px)
-Hi, my name is [Ignacio del Valle](https://es.gravatar.com/idelvall) and this is my personal website.
+Hi, my name is [Ignacio del Valle](https://es.gravatar.com/idelvall) and this is my personal website, dedicated in loving memory of my best friend, Brutus.
+
+![gravatar idelvall](https://secure.gravatar.com/userimage/78983746/66c69343b63e8e97d135a368f31e97d7?size=100px)
+
 
 Thanks to the following:
 
