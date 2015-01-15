@@ -14,6 +14,11 @@ layout: default
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
   <span class="post-meta small">{{ minutes }} minute read</span>
+  <ul>
+	{.% for tag in page.tags %}
+	<li>{.{ tag }}</li>
+      {.% endfor %}
+   </ul>
 </div>
 
 <article class="post-content">
