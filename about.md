@@ -5,10 +5,9 @@ permalink: /about/
 ---
 Hi, my name is [Ignacio del Valle](https://es.gravatar.com/idelvall) and this is my personal website.
 
-All began with my willing of opensourcing some personal projects on GitHub, so I needed a namespace for my software components, and once chosen why not spend 10$ a year on a domain name?
-Using my own name seemed to me too egocentric, so I based the name on my best friend's. 
+All began with my willing of opensourcing some [personal projects](https://github.com/brutusin) on GitHub, so I needed a namespace for my software components, and once chosen why not spend 10$ a year on a domain name?
 
-My dog Brutus gave me his very best, so perfectly fits with the purpose of this site: giving you my best pieces of code.
+Using my own name seemed to me too egocentric, so I based the name on my best friend's. My dog Brutus gave me his very best, so perfectly fits with the purpose of this site: giving you my best pieces of code.
 
 So here it is brutusin.org, dedicated in loving memory of my best friend, Brutus.
 
