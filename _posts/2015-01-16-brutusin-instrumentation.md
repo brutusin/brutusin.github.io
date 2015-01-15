@@ -3,7 +3,7 @@ layout: post
 title:  "Instrumentation framework"
 date:       2015-01-16 11:21:29
 summary:    An extensible java agent framework that instruments (modifies the bytecode at class load time) programs running on the JVM, with the purpose of capturing method invocation events (start, finish, errors ...) and notifying custom listeners.
-categories: java instrumentation project bytecode
+tags: [java,instrumentation,project,bytecode]
 ---
 
 Some years ago I created, a simple java agent with the goal of tracing some method executions of third-party libraries in a non-intrusive way.
