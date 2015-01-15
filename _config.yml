@@ -1,5 +1,5 @@
 # Site settings
-title:       Brutusin
+title:       brutusin.org
 email:       info@brutusin.org
 author:      Ignacio del Valle
 description: "My personal blog"
@@ -20,11 +20,11 @@ disqus_shortname:
 
 # Social icons
 show_social_icons: false
-github_username:
+github_username: idelvall
 stackoverflow_id:
-twitter_username:
+twitter_username: idelvall
 google_plus_id:
-linkedin_username:
+linkedin_username: idelvall
 bitcoin_url:
 paypal_url:
 flattr_button:
