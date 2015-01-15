@@ -1,15 +1,15 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
-	<img src="/img/brutusin-64.png" alt="brutusin.org" />
-      <nav class="site-nav right">
+	<td><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></td>
+	<td><img src="/img/brutusin-64.png" alt="brutusin.org" /></td>
+     <td> <nav class="site-nav right">
         {% include navigation.html %}
       </nav>
       <div class="clearfix"></div>
       {% if site.show_social_icons %}
         {% include social_links.html %}
-      {% endif %}
+      {% endif %}</td>
     </div>
   </div>
 </header>
