@@ -16,7 +16,7 @@ show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:brutusin
+disqus_shortname: brutusin
 
 # Social icons
 show_social_icons: true
