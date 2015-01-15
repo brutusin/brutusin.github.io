@@ -1,4 +1,4 @@
-name: Blog de Romain Sertelon
+name: Butusin's blog
 markdown: redcarpet
 pygments: true
 permalink: /:title.html
