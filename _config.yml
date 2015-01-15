@@ -4,7 +4,7 @@ email:       info@brutusin.org
 author:      Ignacio del Valle
 description: "My personal blog"
 baseurl:     ""
-url:         "http://brutusing.org"
+url:         "http://brutusin.org"
 
 # Google analytics
 google_analytics:
