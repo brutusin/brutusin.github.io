@@ -5,7 +5,7 @@ author:      Ignacio del Valle
 description: "My personal blog"
 baseurl:     ""
 url:         "http://brutusin.org"
-
+img:         "https://avatars0.githubusercontent.com/u/10341159?v=3&s=200"	
 # Google analytics
 google_analytics:
 
@@ -19,7 +19,7 @@ show_post_footers:  false
 disqus_shortname:
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 github_username: idelvall
 stackoverflow_id:
 twitter_username: idelvall
