@@ -10,7 +10,7 @@ tags: java instrumentation bytecode
 Some years ago I created, a simple java agent with the goal of tracing some method executions of third-party libraries in a non-intrusive way.
 
 These past days, I have been improving and refactoring that piece of code and finally published it at GitHub, under the following description: 
-> An extensible java agent framework that instruments (modifies the bytecode at class load time) programs running on the JVM, with the purpose of capturing method invocation events (start, finish, errors ...) and notifying custom listeners.*
+> An extensible java agent framework that instruments (modifies the bytecode at class load time) programs running on the JVM, with the purpose of capturing method invocation events (start, finish, errors ...) and notifying custom listeners.
 
 You can find more information in the following links:
 
