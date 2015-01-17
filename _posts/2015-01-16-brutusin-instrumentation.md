@@ -14,8 +14,8 @@ These past days, I have been improving and refactoring that piece of code and fi
 
 You can find more information in the following links:
 
-* [Brutusin instrumentation framework](https://github.com/brutusin/brutusin/blob/master/instrumentation/README.md) being an extensible framework to create custom agents. 
-* [Brutusin logging implementation](https://github.com/brutusin/brutusin/blob/master/logging-instrumentation/README.md) a concrete implementation to log method executions.
+* [Brutusin instrumentation framework](https://github.com/brutusin/repository/blob/master/instrumentation/README.md) being an extensible framework to create custom agents. 
+* [Brutusin logging implementation](https://github.com/brutusin/repository/blob/master/logging-instrumentation/README.md) a concrete implementation to log method executions.
 
 
 
