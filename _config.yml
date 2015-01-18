@@ -1,3 +1,6 @@
+relative_permalinks: true
+redcarpet:
+  extensions: [autolink]
 # Site settings
 title:       brutusin.org
 email:       info@brutusin.org
