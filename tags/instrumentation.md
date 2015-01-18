@@ -1,5 +1,5 @@
 ---
 layout: tags
-tag: intrumentation
-permalink: intrumentation/
+tag: instrumentation
+permalink: instrumentation/
 ---
