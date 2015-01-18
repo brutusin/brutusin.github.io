@@ -1,5 +1,5 @@
 ---
-layout: bytag
+layout: bycategory
 category: projects
 permalink: projects/
 ---
