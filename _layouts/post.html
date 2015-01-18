@@ -9,7 +9,7 @@ layout: default
 {% if page.categories.size > 0 %}
     {% capture categories_content %}Categories: {% endcapture %}
     {% for category in page.categories %}
-	page: {[ category }}
+	page: {{ category }}
 		{% for site_category in site.data.categories %}
 		data: {{ site_category }}
 			{% if site_category.slug == category %}
