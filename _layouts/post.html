@@ -9,9 +9,9 @@ layout: default
 {% if page.categories.size > 0 %}
     {% capture categories_content %}Categories: {% endcapture %}
     {% for category in page.categories %}
-	page: { category }}
+	page: {[ category }}
 		{% for site_category in site.data.categories %}
-		data: { site_category }}
+		data: {{ site_category }}
 			{% if site_category.slug == category %}
 				{% capture categories_content_temp %}{{ categories_content }}<span class="label" style="background-color:{{ category.color }}"><a href="/category/{{ category.slug }}/">{{ category.name }}</a></span>{% if forloop.last == false %}, {% endif %}{% endcapture %}
 				{% assign categories_content = categories_content_temp %}
