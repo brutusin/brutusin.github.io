@@ -3,15 +3,21 @@ layout: default
 ---
 
 {% assign minutes = content | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
+{% if minutes == 0 %}	
+	{% assign minutes = 1 %}
 {% endif %}
-{% if page.category %}
-	{% for site_category in site.data.categories %}
-		{% if site_category.slug == page.category %}
-			{% assign category = site_category %}
-		{% endif %}
-	{% endfor %}
+{% if page.categories.size > 0 %}
+    {% capture categories_content %}Categories: {% endcapture %}
+    {% for category in page.categories %}
+		{% for site_category in site.data.categories %}
+			{% if site_category.slug == category %}
+				{% capture categories_content_temp %}{{ categories_content }}<span class="label" style="background-color:{{ category.color }}"><a href="/category/{{ category.slug }}/">{{ category.name }}</a></span>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+				{% assign categories_content = categories_content_temp %}
+			{% endif %}
+		{% endfor %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
 {% endif %}
 {% if page.tags.size > 0 %}
     {% capture tags_content %}Tags {% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
@@ -26,8 +32,8 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-   {% if category %}
-     <span class="post-meta">Category: <span class="label" style="background-color:{{ category.color }}"><a href="/category/{{ page.category }}/">{{ category }}</a></span></span><br>
+   {% if page.categories.size > 0 %}
+  <span class="post-meta">{{ categories_content }}</span><br>
   {% endif %}
   {% if page.tags.size > 0 %}
   <span class="post-meta">{{ tags_content }}</span><br>
