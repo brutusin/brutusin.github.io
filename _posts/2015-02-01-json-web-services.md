@@ -12,7 +12,7 @@ This guide walks you through the process of creating a "hello world" web service
 
 You’ll build a service that will accept HTTP GET/POST requests at:
 
-```url
+```
 http://localhost:8080/jsonsrv-example/srv?id=hello
 ```
 and respond with a JSON representation of a greeting:
@@ -32,3 +32,11 @@ returning:
 ```json
 {"value":{"greeting":"Hello Brutus, you are 12 years old!"}}
 ```
+
+**What you’ll need:**
+* About 10+ minutes
+* A favorite text editor or IDE
+* JDK 1.6 or later
+* A JEE web container supporting with Servlet 3.0
+* Maven 3.0+
+
