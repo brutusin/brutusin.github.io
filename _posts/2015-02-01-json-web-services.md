@@ -12,7 +12,7 @@ This guide walks you through the process of creating a "hello world" web service
 
 You’ll build a service that will accept HTTP GET/POST requests at:
 
-```
+```url
 http://localhost:8080/jsonsrv-example/srv?id=hello
 ```
 and respond with a JSON representation of a greeting:
