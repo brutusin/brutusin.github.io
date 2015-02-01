@@ -11,10 +11,20 @@ This guide walks you through the process of creating a "hello world" web service
 **What you’ll build:**
 
 You’ll build a service that will accept HTTP GET/POST requests at:
+
 ```
 http://localhost:8080/jsonsrv-example/srv?id=hello
 ```
 and respond with a JSON representation of a greeting:
-```
+
+```json
 {"value":{"greeting":"Hello!"}}
+```
+
+and accepts complex input structures:
+```
+http://localhost:8080/jsonsrv-example/srv?id=hello&input={"name":"Brutus","age":12} 
+```
+```
+{"value":{"greeting":"Hello Brutus, you are 12 years old!"}}
 ```
