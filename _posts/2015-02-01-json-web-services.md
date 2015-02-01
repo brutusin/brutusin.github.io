@@ -34,6 +34,7 @@ returning:
 ```
 
 **What you’ll need:**
+
 * About 10+ minutes
 * A favorite text editor or IDE
 * JDK 1.6 or later
