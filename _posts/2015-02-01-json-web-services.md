@@ -24,7 +24,7 @@ and respond with a JSON representation of a greeting:
 but also accepts a complex input structure:
 
 ```
-http://localhost:8080/jsonsrv-example/srv?id=hello&input={"name":"Brutus","age":12} 
+id=hello&input={"name":"Brutus","age":12} 
 ```
 
 returning:
