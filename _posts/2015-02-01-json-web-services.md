@@ -22,9 +22,11 @@ and respond with a JSON representation of a greeting:
 ```
 
 and accepts complex input structures:
+
 ```
 http://localhost:8080/jsonsrv-example/srv?id=hello&input={"name":"Brutus","age":12} 
 ```
-```
+
+```json
 {"value":{"greeting":"Hello Brutus, you are 12 years old!"}}
 ```
