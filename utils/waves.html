@@ -1,7 +1,19 @@
-<html>
-<img src="http://www.wewebcams.com/cams/000132/get_imagen.php"/>
-<img src="http://www.wewebcams.com/cams/000144/get_imagen.php"/>
-<img src="http://www.wewebcams.com/cams/000115/get_imagen.php"/>
-<img src="http://www.wewebcams.com/cams/000116/get_imagen.php"/>
-<img src="http://www.wewebcams.com/cams/000100/get_imagen.php"/>
-</html
+<script>
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
+var cam = getURLParameter('cam');
+if(cam){
+	document.write('<a href ="javascript:location.reload();"><img src="http://www.wewebcams.com/cams/'+cam+'/get_imagen.php"/></a>');
+} else {
+document.write('<a href ="?cam=000132"><img src="http://www.wewebcams.com/cams/000132/get_imagen.php"/></a>');
+document.write('<a href ="?cam=000144"><img src="http://www.wewebcams.com/cams/000144/get_imagen.php"/></a>');
+document.write('<a href ="?cam=000115"><img src="http://www.wewebcams.com/cams/000115/get_imagen.php"/></a>');
+document.write('<a href ="?cam=000116"><img src="http://www.wewebcams.com/cams/000116/get_imagen.php"/></a>');
+document.write('<a href ="?cam=000100"><img src="http://www.wewebcams.com/cams/000100/get_imagen.php"/></a>');
+}
+for(i=100;i<200;i++){
+	//document.write('<img src="http://www.wewebcams.com/cams/000'+i+'/get_imagen.php"/>'+i);
+	
+}
+</script>
